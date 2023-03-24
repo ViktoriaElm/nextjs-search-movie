@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    background-color: whitesmoke;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.div-loading {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    width: 5vw;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.search-bar,
+.footer-bar {
+    display: flex;
+    background-color: rgb(20, 19, 19);
+    height: 20vh;
+    width: 100vw;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search-bar {
+    margin-bottom: 3em;
+}
+
+.title {
+    color: rgb(253, 198, 69);
+    margin-left: 3em;
+}
+
+input {
+    height: 25px;
+    min-width: 230px;
+    margin: 1em 1em 1em 5em;
+    background-color: whitesmoke;
+}
+
+input {
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: 1px solid silver;
+}
+
+.div-movies {
+    display: flex;
+    background-color: white;
+    margin: 1em 1em 2em 2em;
+    padding: 20px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px rgba(31, 30, 31, 0.3);
+    height: 35vh;
+    width: 40%;
+    min-width: 390px;
+    min-height: 270px;
+}
+
+.div-movie {
+    display: flex;
+    min-width: 250px;
+    height: 100%;
+}
+
+.movie-img {
+    margin: 0px 20px 0px 0px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 15px rgb(31, 30, 31, 0.5);
+}
+
+.movie-about {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    min-width: 200px;
+}
+
+.movie-title {
+    margin: 0px 0px 5px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.movie-genres {
+    font-weight: lighter;
+    margin: 1px 0px;
+}
+
+.li-genres,
+.movie-year,
+.movie-language,
+.movie-summary-text {
+    font-weight: lighter;
+    font-size: 11px;
+    color: rgb(128, 128, 128, 0.5);
+}
+
+.li-genres,
+.movie-year,
+.movie-language {
+    margin: 1px 0px;
+}
+
+.li-genres {
+    list-style-type: none;
+    margin: 1px 0px;
+}
+
+.stars {
+    color: orange;
+}
+
+.movie-summary-text {
+    margin-top: 10px;
+}
+
+.footer-bar {
+    margin-top: 3em;
+    font-size: 8px;
+}
