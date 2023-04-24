@@ -27,7 +27,7 @@ export default function Movies() {
 
   return (<>
     <div className="search-bar" >
-      <h1 className="title">Best movies ever</h1>
+      <h1 className="title">MOVIES</h1>
       <form >
         <input
           type="text"
@@ -39,7 +39,7 @@ export default function Movies() {
     </div>
     {isLoaded === true
       ? <div className="div-loading">
-        <img className="spinner" src="https://www.pinclipart.com/picdir/big/235-2355092_waiting-circle-clipart.png" />
+        <img className="spinner" src="https://www.pinclipart.com/picdir/big/235-2355092_waiting-circle-clipart.png" alt="spinner" />
       </div>
       : filteredMovies.map((movie) => {
         return (<div className="div-movies">

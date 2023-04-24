@@ -7,7 +7,7 @@ body {
     display: flex;
     width: 100vw;
     height: 100%;
-    background-color: whitesmoke;
+    background-color: rgb(30, 30, 30);
     font-size: small;
     font-family: sans-serif;
 }
@@ -33,7 +33,7 @@ body {
 .search-bar,
 .footer-bar {
     display: flex;
-    background-color: rgb(20, 19, 19);
+    background-color: rgb(25, 25, 25);
     height: 20vh;
     width: 100vw;
     align-items: center;
@@ -41,34 +41,38 @@ body {
 }
 
 .search-bar {
+    border-bottom: 1px solid rgb(49, 49, 49);
     margin-bottom: 3em;
 }
 
+.title,
+h2 {
+    color: rgb(71, 201, 77);
+    margin-left: 1em;
+}
+
 .title {
-    color: rgb(253, 198, 69);
-    margin-left: 3em;
+    font-size: 3em;
 }
 
 input {
     height: 25px;
     min-width: 230px;
     margin: 1em 1em 1em 5em;
-    background-color: whitesmoke;
-}
-
-input {
+    background-color: rgb(202, 202, 202);
     border-radius: 5px;
     padding: 5px 15px;
-    border: 1px solid silver;
+    border: none;
+    outline: none;
 }
 
 .div-movies {
     display: flex;
-    background-color: white;
+    background-color: rgb(40, 40, 40);
     margin: 1em 1em 2em 2em;
     padding: 20px 20px;
     border-radius: 5px;
-    box-shadow: 2px 2px 20px rgba(31, 30, 31, 0.3);
+    box-shadow: 3px 3px 3px rgba(38, 52, 59, 0.5);
     height: 35vh;
     width: 40%;
     min-width: 390px;
@@ -98,6 +102,7 @@ input {
     margin: 0px 0px 5px;
     font-weight: lighter;
     font-size: 15px;
+    color: gainsboro;
 }
 
 .movie-genres {
@@ -111,7 +116,7 @@ input {
 .movie-summary-text {
     font-weight: lighter;
     font-size: 11px;
-    color: rgb(128, 128, 128, 0.5);
+    color: gainsboro;
 }
 
 .li-genres,
